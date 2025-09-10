@@ -1,5 +1,6 @@
 flask
-
+sentence-transformers
 gtts
-
+psycopg2-binary
 gunicorn
+numpy

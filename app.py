@@ -1,6 +1,9 @@
-from flask import Flask, request, send_file
+from flask import Flask, request, send_file, jsonify
 from gtts import gTTS
 import io
+import psycopg2, os
+from sentence_transformers import SentenceTransformer
+import numpy as np
 
 app = Flask(__name__)
 
@@ -43,6 +46,8 @@ def ask_bot():
 
     audio_stream = text_to_speech(answer)
     return send_file(audio_stream, mimetype="audio/mpeg")
+
+
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5000)
