@@ -9,7 +9,12 @@ qa_pairs = {
     "what is notice app": "Notice app is a platform for students and teachers to share important updates.",
     "who made this app": "This app was created by Anugrah Shinde.",
     "what is flutter": "Flutter is a framework for building cross-platform apps.",
-    "tell me about ur self" : "My name is Ruth A biblical character"
+    "How can i check new notices" : "On the home screen you will see the latest notices, pull down to refresh for new updates or try switching the screens",
+    "How can i check profile" : "At top left corner",
+    "How do i post a new notice" : "Go to homescreen add your details choose file (if any) and post notice",
+    "Can i edit or delete a notice" : "Yes, you can edit and notices from notice sections tap on notices tab",
+    "How will student receive my notice" : "By notification",
+    "How do i use this app" : "Just register if your not then simply choose your college and class and then click complete registration and see the notices posted by your teachers"
 }
 
 # Text-to-speech (direct memory, no file)
