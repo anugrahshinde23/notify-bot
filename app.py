@@ -1,9 +1,8 @@
-from flask import Flask, request, send_file, jsonify
+from flask import Flask, request, send_file
 from gtts import gTTS
 import io
-import psycopg2, os
-from sentence_transformers import SentenceTransformer
-import numpy as np
+
+
 
 app = Flask(__name__)
 
